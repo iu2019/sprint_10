@@ -27,6 +27,7 @@ ya2@2ya.ru : digits allowed, other than in the first position of the name
 ya-e@ya-ya.ru : dash allowed in the name and domain
 ya@x.ru, y@ya.ru : name and domain can be as short as 1 symbol, country domain must be 2-3 symbols
 some@mail.ya.ru - subdomains allowed
+review.test@yandex.ru - dots in name are allowed since ver 0.0.2
 ```
 Please note: no country domain allowed other than .ru, as per the assignement
 Please also note: no name division with '.' is allowed, again, as per assignement
@@ -60,6 +61,7 @@ http://ya.ru/path/to/deep/
 http://ya-ya-ya.ru
 http://8.8.8.8:8080
 http://8.8.8.8:8080/page/to/deep#
+http://mysite.com/path#
 ```
 
 - Must start with http:// or https://
@@ -78,4 +80,4 @@ Reasonable limitations are applied to the length of each input.
 ver 0.0.2
 - Now allowing hash sign in any web site address, not only an ip-based one
 - Now limiting number of slahses to one in every occasion: //abc//dce disallowed
-- Port number leading zeros disallowed, values 0 - 65535 only allowed
+- Port number leading zeros disallowed, values 1 - 65535 only allowed
