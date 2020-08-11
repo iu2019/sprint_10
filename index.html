@@ -24,7 +24,7 @@
                         <span class="form__error">Недопустимый формат имени</span>
                     </div>
                     <div class="form__field">
-                        <input class="form__input" type="text" name="email" pattern="[a-zA-Z_][\w-]*@(([\w-]+\.)*)ru" placeholder="E-Mail" required />
+                        <input class="form__input" type="text" name="email" pattern="[a-zA-Z_]([\w-]+\.)*[\w-]+@(([\w-]+\.)*)ru" placeholder="E-Mail" required />
                         <span class="form__error">e-mail в формате: students-yandex@yandex.ru</span>
                     </div>
                     <div class="form__field">
@@ -34,9 +34,8 @@
                         <span class="form__error">Недопустимый формат номера</span>
                     </div>
                     <div class="form__field">
-                        <input class="form__input" type="text" name="url" 
-                        pattern="http[s]?:\/\/((\w([\w-]|\.(?!\.))*\.\w{2,3}(:\d{1,4})?(\/[\w]*)*)|(((\d|\d\d|1\d\d|2[0-4]\d|25[0-5])\.){3}(\d|\d\d|1\d\d|2[0-4]\d|25[0-5])(:\d{1,4})?(\/(?!\/)[\w-]*)*#?\/?))"   
-                            placeholder="Ваш сайт" required />
+                        <input class="form__input" type="text" name="url"
+                            pattern="http[s]?:\/\/((([\w-]+\.)*\w{2,3})|((([1-9][0-9]{0,1}|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([1-9][0-9]{0,1}|1[0-9]{2}|2[0-4][0-9]|25[0-5])))(:[1-9][0-9]{0,3}|[1-5][0-9]{4}|6[0-4][0-9]{3}|65[0-4][0-9]{2}|655[0-2][0-9]{1}|6553[0-5])?((\/[\w-]+)*\/?#?)" placeholder="Ваш сайт" required />
                         <span class="form__error">URL в формате: http://mysite.ru</span>
                     </div>
                     <button class="form__button" type="text">Отправить</button>

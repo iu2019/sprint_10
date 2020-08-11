@@ -1,6 +1,9 @@
 # iu2019.github.io
 ## Yandex Praktikum Sprint 10 project
-### ver. 0.0.1
+### ver. 0.0.2
+
+Link: https://github.com/iu2019/iu2019.github.io
+gh-pages: https://iu2019.github.io/
 
 Goal: practice in git, github and regular expression usage on a form
 
@@ -27,6 +30,10 @@ some@mail.ya.ru - subdomains allowed
 ```
 Please note: no country domain allowed other than .ru, as per the assignement
 Please also note: no name division with '.' is allowed, again, as per assignement
+
+ver 0.0.2
+Now allowing dot in the user name, not just the domain
+
 
 ## Phone
 ```
@@ -67,3 +74,8 @@ http://8.8.8.8:8080/page/to/deep#
 - One hash sign allowed at the end of the address, either followed by dash or not
 
 Reasonable limitations are applied to the length of each input.
+
+ver 0.0.2
+- Now allowing hash sign in any web site address, not only an ip-based one
+- Now limiting number of slahses to one in every occasion: //abc//dce disallowed
+- Port number leading zeros disallowed, values 0 - 65535 only allowed
