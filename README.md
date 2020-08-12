@@ -1,6 +1,6 @@
 # iu2019.github.io
 ## Yandex Praktikum Sprint 10 project
-### ver. 0.0.2
+### ver. 0.0.3
 
 Link: https://github.com/iu2019/iu2019.github.io
 gh-pages: https://iu2019.github.io/
@@ -29,12 +29,16 @@ ya@x.ru, y@ya.ru : name and domain can be as short as 1 symbol, country domain m
 some@mail.ya.ru - subdomains allowed
 review.test@yandex.ru - dots in name are allowed since ver 0.0.2
 ```
-Please note: no country domain allowed other than .ru, as per the assignement
-Please also note: no name division with '.' is allowed, again, as per assignement
+Please note: no country domain allowed other than .ru, as per the assignment
+Please also note: no name division with '.' is allowed, again, as per assignment
 
 ver 0.0.2
 Now allowing dot in the user name, not just the domain
 
+ver 0.0.3
+Corrected bug preventing the name to have just one symbol. Now truly allowed. Please note the first name symbol
+must be a latin letter, the following ones can be as well digits, hyphen or underline. Leading or trailing
+spaces not allowed.
 
 ## Phone
 ```
@@ -48,7 +52,7 @@ Now allowing dot in the user name, not just the domain
 - Any number of spaces and just one dash are allowed between groups, but not inside the groups,
     none of those are obligatory
 - Brackets are accepted (optional) around the area code
-- Number can start with +7 or 8 - style country code, but can't omit it 
+- Number can start with either +7 or 8 - style country code, but can't omit it 
 
 ## Web site
 ```
